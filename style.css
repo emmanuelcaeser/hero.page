@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./images/pexels-zubair-rafiq-501837764-16631322.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    margin-left: 60px;
+    max-width: 500px;
+    min-height: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00bcd4;
+    transition: 0.3s;
+}
+
+h1 {
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
